@@ -1,14 +1,14 @@
 from distutils.core import setup
 
 setup(
-    name='SportscodePy',
+    name='sportscode-py',
     version='0.1',
     packages=[
-      'sportscodepy',
+      'sportscode_py',
     ],
     install_requires=[
-        "numpy",
-        "pandas"
+      'numpy',
+      'pandas'
     ],
     license='',
     long_description=open('README').read(),
