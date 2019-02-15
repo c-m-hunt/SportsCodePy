@@ -1,5 +1,6 @@
 
 from xml.etree import ElementTree as ET
+import pandas as pd
 
 def teams_as_rows(dat, period1_start, period2_start,
                  team, start, end, metric_val,

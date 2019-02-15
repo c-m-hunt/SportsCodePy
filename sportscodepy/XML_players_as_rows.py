@@ -1,5 +1,5 @@
-
 from xml.etree import ElementTree as ET
+import pandas as pd
 
 def players_as_rows(dat, period1_start, period2_start, player,
                  team, time, lead_time, lag_time, metric_val,
