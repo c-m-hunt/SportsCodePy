@@ -9,13 +9,14 @@ A powerful feature of Sportscode is the ability to import an XML file that creat
 
 This is a beta version, with more functions to be added at a later date. Feedback will be gratefully received to improve the package. 
 
-## Not a Package
+## Package
+Install package to environment with `pip install .`. Currently not available on PyPI.
 
-I aim to build a package for the functions to be much easier to access. In the meantime you will have to use the functions as individual files. 
+Import with `import sportscode_py as scpy`.
 
 ## Functions 
 
-### [players_as_rows()](https://github.com/FCrSTATS/SportsCodePy/blob/master/XML_players_as_rows.py)
+### [scpy.players_as_rows()](https://github.com/FCrSTATS/SportsCodePy/blob/master/XML_players_as_rows.py)
 **Convert a dataframe into a SportsCode XML file:** Creates an XML file that will put players on rows and put one metric as a value. 
 
 ##### Parameters 
@@ -50,7 +51,7 @@ period3_start - Second value of the period 3 start within the SportsCode game fo
 
 period4_start - Second value of the period 4 start within the SportsCode game footage (default =0, edit only if needed), numeric value 
 
-### [teams_as_rows()](https://github.com/FCrSTATS/SportsCodePy/blob/master/XML_teams_as_rows.py)
+### [scpy.teams_as_rows()](https://github.com/FCrSTATS/SportsCodePy/blob/master/XML_teams_as_rows.py)
 **Convert a dataframe into a SportsCode XML file:** Creates an XML file that will put teams on rows and put one metric as a value. 
 
 ##### Parameters 

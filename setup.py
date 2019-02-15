@@ -11,5 +11,5 @@ setup(
       'pandas'
     ],
     license='',
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
 )
